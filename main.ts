@@ -1,7 +1,7 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 
 const line =
-  "We already agreed on this by email \u2014 this meeting exists only because nobody wanted to be the person who cancelled it.";
+  "We agreed on this by email, so this meeting only exists because cancelling it would have taken courage.";
 
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || "/output";
 mkdirSync(outDir, { recursive: true });
